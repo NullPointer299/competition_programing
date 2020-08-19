@@ -34,7 +34,7 @@ s1 s2 s3
 
 import scala.io.StdIn.readLine
 
-object ABC081A extends App {
+object ABC081A_PlacingMarbles extends App {
 
   val in = readLine().toCharArray.map(_.toString.toInt)
   println(in.count(_ == 1))

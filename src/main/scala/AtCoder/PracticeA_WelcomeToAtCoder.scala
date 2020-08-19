@@ -40,7 +40,7 @@ myonmyon
 
 import scala.io.StdIn.{readInt, readLine}
 
-object PracticeA extends App {
+object PracticeA_WelcomeToAtCoder extends App {
 
   val a = readInt()
   val bc = readLine().split(' ').map(_.toInt)

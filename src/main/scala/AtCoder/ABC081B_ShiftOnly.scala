@@ -60,7 +60,7 @@ A1 A2 ... AN
 import scala.annotation.tailrec
 import scala.io.StdIn.{readInt, readLine}
 
-object ABC081B extends App {
+object ABC081B_ShiftOnly extends App {
 
   val N = readInt()
   val in = readLine().split(' ').map(_.toInt)

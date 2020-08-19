@@ -33,7 +33,7 @@ Odd
 
 import scala.io.StdIn.readLine
 
-object ABC086A extends App {
+object ABC086A_Product extends App {
 
   val ab = readLine().split(' ').map(_.toInt)
   val a = ab(0)
