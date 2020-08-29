@@ -9,9 +9,9 @@ object ABC085C_Otoshidama extends App {
   println(s"$x $y $z")
 
   def findPattern(N: Int, Y: Int): (Int, Int, Int) = {
-    for (x <- 0 to N; y <- 0 to N - x)
-      if (10000 * x + 5000 * y + 1000 * (N - x - y) == Y)
-        return (x, y, N - x - y)
+    for (t10 <- 0 to N; t5 <- 0 to N - t10)
+      if (10000 * t10 + 5000 * t5 + 1000 * (N - t10 - t5) == Y)
+        return (t10, t5, N - t10 - t5)
     (-1, -1, -1)
   }
 }
