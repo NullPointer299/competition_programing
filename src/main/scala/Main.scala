@@ -1,11 +1,9 @@
+import scala.collection.immutable.TreeSet
+
 object Main extends App {
 
-  val string="abbccdcdcdabaaab"
+  val treeSet=TreeSet(2,5,2,7,22,7862,34257,12,6,7,1)
 
-  val regex="^(ab|bc|cd)+$".r
+  println(treeSet)
 
-  regex.findFirstIn(string) match {
-    case Some(_) => println("yes")
-    case _ => println("no")
-  }
 }

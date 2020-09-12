@@ -1,4 +1,4 @@
-package AtCoder
+package AtCoder.ABC086
 
 import scala.annotation.tailrec
 import scala.io.StdIn.{readInt, readLine}

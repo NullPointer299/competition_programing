@@ -1,4 +1,4 @@
-package AtCoder
+package AtCoder.ABC049
 
 import scala.io.StdIn.readLine
 
